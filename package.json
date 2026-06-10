@@ -1,0 +1,14 @@
+{
+  "name": "puerto-quetzal-shore-excursions",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "python3 scripts/build-puerto-quetzal-site.py",
+    "images": "python3 scripts/fetch-puerto-quetzal-images.py",
+    "dev": "python3 -m http.server 8080",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.99.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "puerto-quetzal-shore-excursions",
+  "compatibility_date": "2026-06-10",
+  "observability": { "enabled": true },
+  "assets": { "directory": "." },
+  "routes": [{ "pattern": "puertoquetzalshoreexcursion.com", "custom_domain": true }]
+}
