@@ -201,7 +201,7 @@ h1, h2, h3, h4 { font-family: 'Outfit', system-ui, sans-serif; }
 
 .hero-bg-custom[style*="hero-puerto-quetzal.png"],
 .hero-bg[style*="hero-puerto-quetzal.png"] {
-  background-position: center 40%;
+  background-position: center 55%;
 }
 
 .hero-bg-custom[style*="antigua-guatemala.png"],
@@ -210,6 +210,21 @@ h1, h2, h3, h4 { font-family: 'Outfit', system-ui, sans-serif; }
 }
 
 .hero-bg-custom[style*="santa-catalina-arch.png"] {
+  background-position: center 50%;
+}
+
+.hero-bg-custom[style*="pacaya-volcano.png"],
+.hero-bg[style*="pacaya-volcano.png"] {
+  background-position: center 45%;
+}
+
+.hero-bg-custom[style*="jade-factory.png"],
+.hero-bg[style*="jade-factory.png"] {
+  background-position: center 40%;
+}
+
+.hero-bg-custom[style*="coffee-plantation.png"],
+.hero-bg[style*="coffee-plantation.png"] {
   background-position: center 50%;
 }
 

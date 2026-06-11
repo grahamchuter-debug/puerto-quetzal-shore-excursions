@@ -336,7 +336,7 @@ HOME_FAQ = [
 # --- Heroes ---
 (ROOT / "partials/hero-home.html").write_text(hero(
     "partials/hero-home.html", eyebrow="Puerto Quetzal · Guatemala", image="hero-puerto-quetzal.png",
-    aria="Colonial streets and Santa Catalina Arch in Antigua Guatemala with volcano backdrop — Puerto Quetzal shore excursion destination",
+    aria="Panoramic view of Antigua Guatemala colonial rooftops with Volcán de Agua rising behind — Puerto Quetzal shore excursion destination",
     title_html='Puerto Quetzal Shore<br/><span class="text-gt-300">Excursions</span><br/>from the Cruise Port',
     lead="Puerto Quetzal is the cruise gateway to Antigua Guatemala, volcanoes, coffee plantations, colonial architecture and Guatemalan culture — not a beach-only Caribbean stop.",
     actions='''<a href="best-puerto-quetzal-shore-excursions.html" class="btn-primary inline-flex items-center justify-center gap-2 text-white font-semibold px-7 py-3 rounded-full text-sm shadow-xl">View Puerto Quetzal Excursions</a>
@@ -366,15 +366,15 @@ HERO_PAGES = [
      "Antigua Guatemala<br/><span class=\"text-gt-300\">Shore Excursion</span>",
      "Colonial streets, churches, markets and the iconic Santa Catalina Arch framed by volcano views — Puerto Quetzal's most popular excursion."),
     ("hero-jade.html", "Jade Factory", "Cultural Experience", "jade-factory.png",
-     "Jade craftsmanship and Antigua Guatemala colonial highlights on shore excursion from Puerto Quetzal cruise port",
+     "Artisan at Jades Mundo Maya jade workshop on Antigua and jade factory shore excursion from Puerto Quetzal cruise port",
      "Antigua &amp; Jade Factory<br/><span class=\"text-gt-300\">Tour</span>",
      "Discover Mayan jade traditions, Guatemalan history and Antigua's colonial landmarks on a culture-focused port day."),
     ("hero-coffee.html", "Coffee Plantation", "Highland Culture", "coffee-plantation.png",
-     "Coffee plantation and Antigua Guatemala colonial architecture on shore excursion from Puerto Quetzal cruise port",
+     "Ripe red and green coffee cherries on a branch at a Guatemalan coffee plantation on shore excursion from Puerto Quetzal cruise port",
      "Antigua &amp; Coffee<br/><span class=\"text-gt-300\">Plantation Tour</span>",
      "Visit working coffee farms, learn production from bean to cup and explore Antigua's UNESCO-listed streets."),
     ("hero-volcano.html", "Pacaya Volcano", "Adventure", "pacaya-volcano.png",
-     "Pacaya Volcano hiking and volcanic landscape on adventure shore excursion from Puerto Quetzal Guatemala cruise port",
+     "Colonial cobblestone street in Antigua Guatemala with Volcán de Agua rising behind on Guatemala highland shore excursion from Puerto Quetzal",
      "Pacaya Volcano<br/><span class=\"text-gt-300\">Shore Excursion</span>",
      "Active volcano views, hiking options and geological features — Guatemala's top adventure excursion from the cruise port."),
     ("hero-highlights.html", "Guatemala Highlights", "First-Time Visitors", "guatemala-highlights.png",
@@ -412,17 +412,17 @@ print("Heroes written")
       <a href="antigua-guatemala-shore-excursion.html" class="mt-5 btn-ocean inline-flex items-center justify-center text-white text-xs font-semibold px-5 py-2.5 rounded-full">Antigua Tour</a></div>
     </div>
     <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-md border border-gt-50 flex flex-col">
-      <div class="card-media h-44"><img src="images/pacaya-volcano.png" alt="Pacaya Volcano volcanic landscape on adventure shore excursion from Puerto Quetzal Guatemala cruise port" width="600" height="352" loading="lazy" decoding="async" /></div>
+      <div class="card-media h-44"><img src="images/pacaya-volcano.png" alt="Colonial street in Antigua Guatemala with Volcán de Agua on volcano shore excursion from Puerto Quetzal cruise port" width="600" height="352" loading="lazy" decoding="async" /></div>
       <div class="p-6 flex flex-col flex-1"><h3 class="text-lg font-display font-semibold text-gray-900 mb-2">Pacaya Volcano</h3><p class="text-sm text-gray-500 flex-1">Active volcano hiking and dramatic highland scenery.</p>
       <a href="pacaya-volcano-shore-excursion.html" class="mt-5 btn-ocean inline-flex items-center justify-center text-white text-xs font-semibold px-5 py-2.5 rounded-full">Volcano Tour</a></div>
     </div>
     <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-md border border-gt-50 flex flex-col">
-      <div class="card-media h-44"><img src="images/coffee-plantation.png" alt="Guatemalan coffee plantation visit on shore excursion from Puerto Quetzal cruise port" width="600" height="352" loading="lazy" decoding="async" /></div>
+      <div class="card-media h-44"><img src="images/coffee-plantation.png" alt="Ripe red and green coffee cherries on a branch at a Guatemalan coffee plantation on Puerto Quetzal shore excursion" width="600" height="352" loading="lazy" decoding="async" /></div>
       <div class="p-6 flex flex-col flex-1"><h3 class="text-lg font-display font-semibold text-gray-900 mb-2">Coffee Plantation</h3><p class="text-sm text-gray-500 flex-1">Highland farms, bean-to-cup culture and Antigua sightseeing.</p>
       <a href="antigua-and-coffee-plantation-tour.html" class="mt-5 btn-ocean inline-flex items-center justify-center text-white text-xs font-semibold px-5 py-2.5 rounded-full">Coffee Tour</a></div>
     </div>
     <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-md border border-gt-50 flex flex-col">
-      <div class="card-media h-44"><img src="images/jade-factory.png" alt="Jade factory craftsmanship and Antigua highlights on cultural shore excursion from Puerto Quetzal" width="600" height="352" loading="lazy" decoding="async" /></div>
+      <div class="card-media h-44"><img src="images/jade-factory.png" alt="Jades Mundo Maya jade workshop artisan on Antigua and jade factory shore excursion from Puerto Quetzal" width="600" height="352" loading="lazy" decoding="async" /></div>
       <div class="p-6 flex flex-col flex-1"><h3 class="text-lg font-display font-semibold text-gray-900 mb-2">Antigua &amp; Jade Factory</h3><p class="text-sm text-gray-500 flex-1">Mayan jade traditions plus colonial Antigua landmarks.</p>
       <a href="antigua-and-jade-factory-tour.html" class="mt-5 btn-ocean inline-flex items-center justify-center text-white text-xs font-semibold px-5 py-2.5 rounded-full">Jade Tour</a></div>
     </div>
@@ -504,7 +504,7 @@ print("Heroes written")
     <a href="antigua-vs-pacaya-volcano-excursion.html" class="text-ocean-600 font-semibold text-sm">Compare Antigua vs Pacaya →</a>
   </div>
   <div class="card-media rounded-3xl overflow-hidden aspect-[4/3] shadow-lg">
-    <img src="images/pacaya-volcano.png" alt="Pacaya Volcano volcanic scenery on adventure shore excursion from Puerto Quetzal Guatemala cruise port" width="600" height="450" loading="lazy" decoding="async" />
+    <img src="images/pacaya-volcano.png" alt="Colonial cobblestone street in Antigua Guatemala with Volcán de Agua on highland shore excursion from Puerto Quetzal" width="600" height="450" loading="lazy" decoding="async" />
   </div>
 </div></div></section>
 <section class="py-16 bg-sand-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -550,8 +550,8 @@ print("Home content written")
     "Antigua & Jade Factory", "Best Cultural Experience", "culture-badge",
     "The Antigua and jade factory tour pairs UNESCO colonial sightseeing with Guatemala's ancient jade tradition. Learn how Mayan craftsmen shaped jade for centuries, explore a working factory or showroom, and walk Antigua's historic streets with a local guide. Shopping opportunities are part of the experience — confirm inclusions and timing with your operator before booking.",
     "jade-factory.png",
-    "Jade craftsmanship demonstration and Antigua colonial highlights on cultural shore excursion from Puerto Quetzal Guatemala",
-    [("jade-factory.png", "Jade carving and Mayan craftsmanship at factory visit on Puerto Quetzal shore excursion", "Jade Craftsmanship", "See how raw jade becomes jewellery and art with expert demonstrations."),
+    "Artisan at Jades Mundo Maya jade workshop on Antigua and jade factory shore excursion from Puerto Quetzal Guatemala",
+    [("jade-factory.png", "Artisan working at Jades Mundo Maya jade workshop on Puerto Quetzal shore excursion", "Jade Craftsmanship", "See how raw jade becomes jewellery and art with expert demonstrations."),
      ("colonial-antigua.png", "Colonial Antigua streets visited on jade factory and cultural tour from Puerto Quetzal cruise port", "Antigua Highlights", "Colonial plazas and landmarks woven into the factory visit itinerary."),
      ("antigua-guatemala.png", "Guatemalan history and cultural heritage on jade factory shore excursion from Puerto Quetzal", "Guatemalan History", "Guides connect jade traditions to Mayan and colonial-era heritage."),
      ("antigua-market.png", "Shopping for jade and artisan crafts in Antigua on shore excursion from Puerto Quetzal", "Shopping Opportunities", "Authentic jade pieces and local crafts — buy from reputable sources.")],
@@ -562,9 +562,9 @@ print("Home content written")
     "Coffee Plantation", "Best for Coffee Lovers", "coffee-badge",
     "Coffee plantation tours from Puerto Quetzal combine highland farm visits with Antigua sightseeing. Walk through working plantations, learn how Guatemalan arabica is grown and processed, taste fresh brews, and explore Antigua's colonial streets — a port day built around Guatemala's most famous export and its UNESCO heritage city.",
     "coffee-plantation.png",
-    "Guatemalan coffee plantation with Antigua colonial architecture on shore excursion from Puerto Quetzal cruise port",
-    [("coffee-plantation.png", "Coffee cherries and plantation rows on highland farm tour from Puerto Quetzal shore excursion", "Coffee Production", "From cherry picking to roasting — see the full bean-to-cup process."),
-     ("coffee-plantation.png", "Plantation visit with local culture on coffee and Antigua tour from Puerto Quetzal Guatemala", "Plantation Visits", "Working farms in the highlands surrounding Antigua — conditions vary by season."),
+    "Ripe red and green coffee cherries on a branch at a Guatemalan coffee plantation on shore excursion from Puerto Quetzal cruise port",
+    [("coffee-plantation.png", "Close-up of ripening red and green coffee cherries on a branch at a Guatemalan coffee plantation", "Coffee Production", "From cherry picking to roasting — see the full bean-to-cup process."),
+     ("coffee-plantation.png", "Coffee cherries ripening on the branch at a highland plantation on Antigua coffee tour from Puerto Quetzal", "Plantation Visits", "Working farms in the highlands surrounding Antigua — conditions vary by season."),
      ("colonial-antigua.png", "Antigua colonial sightseeing paired with coffee plantation on Puerto Quetzal shore excursion", "Antigua Sightseeing", "Colonial plazas and landmarks included on most combined itineraries."),
      ("antigua-market.png", "Local culture and regional flavours on coffee plantation shore excursion from Puerto Quetzal", "Local Culture", "Meet farmers and learn how coffee shapes highland communities.")],
     {"Best For": "Coffee enthusiasts &amp; culture seekers", "Duration": "6–7 hours typical", "Walking Required": "Easy to moderate — farm paths and city streets", "Cultural Interest Rating": "High", "Adventure Level": "Low", "Return To Ship Confidence": "High with planned buffer", "Family Friendly": "Good — educational for all ages"},
@@ -574,8 +574,8 @@ print("Home content written")
     "Pacaya Volcano", "Best Adventure", "adventure-badge",
     "Pacaya Volcano shore excursions deliver Guatemala's most adventurous port day from Puerto Quetzal. Hike volcanic slopes for dramatic views, observe geological features and experience an active volcano environment with local guides. Fitness requirements vary by route — confirm hiking distance, elevation and current access restrictions with your operator. Do not assume lava flows or specific viewpoints without verification.",
     "pacaya-volcano.png",
-    "Pacaya Volcano hiking trail and volcanic landscape on adventure shore excursion from Puerto Quetzal Guatemala cruise port",
-    [("pacaya-volcano.png", "Pacaya Volcano summit views on hiking shore excursion from Puerto Quetzal cruise port", "Volcano Views", "Panoramic highland and volcanic scenery — visibility depends on weather."),
+    "Colonial cobblestone street in Antigua Guatemala with Volcán de Agua on Guatemala highland shore excursion from Puerto Quetzal cruise port",
+    [("pacaya-volcano.png", "Volcán de Agua rising over colonial Antigua streets on Guatemala highland shore excursion from Puerto Quetzal", "Volcano Views", "Panoramic highland and volcanic scenery — visibility depends on weather."),
      ("pacaya-volcano.png", "Hiking options on Pacaya Volcano adventure excursion from Puerto Quetzal Guatemala", "Hiking Options", "Routes range from moderate walks to steeper climbs — match fitness to itinerary."),
      ("volcano-backdrop.png", "Geological features and volcanic terrain on Pacaya shore excursion from Puerto Quetzal", "Geological Features", "Guides explain Pacaya's active geology and recent eruption history."),
      ("pacaya-volcano.png", "Cruise timing and return planning for Pacaya Volcano shore excursion from Puerto Quetzal", "Cruise Timing", "Operators plan inland drives and hiking windows around your ship schedule — confirm end times.")],
